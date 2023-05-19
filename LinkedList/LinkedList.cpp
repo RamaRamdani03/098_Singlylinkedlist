@@ -111,3 +111,13 @@ void list::traverse()/*Mengunjungi dan membaca data dalam list*/
 	if (listEmpty())
 		cout << "\nList kosong\n";
 	else
+	{
+		cout << endl << "Data didalam adalah: " << endl;
+		Node* currentNode;
+		for (currentNode = START; currentNode != NULL; currentNode = currentNode->next)
+		{
+			cout << currentNode->noMhs << " " << currentNode->nama << "/n";
+		}
+		cout << endl;
+	}
+}
