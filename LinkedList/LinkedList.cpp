@@ -22,3 +22,8 @@ public:
 	bool Search(int nim, Node** previous, Node** current);
 	void traverse();
 };
+
+list::list()
+{
+	START = NULL;
+}
