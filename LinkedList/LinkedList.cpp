@@ -128,3 +128,12 @@ int main()
 	int nim;
 	char ch;
 	while (1)
+	{
+		cout << endl << "Menu";
+		cout << endl << "1. Menambah  data kedalam list" << endl;
+		cout << endl << "2. Menghapus data dari dalam list" << endl;
+		cout << endl << "3. Menampilkan semua data dari dalam list" << endl;
+		cout << endl << "4. Mencari data dalam list" << endl;
+		cout << endl << "5. keluar" << endl;
+		cout << endl << "Masukkan pilihan (1-5): ";
+		cin >> ch;
