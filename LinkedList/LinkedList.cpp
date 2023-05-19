@@ -104,3 +104,5 @@ bool list::Search(int nim, Node** previous, Node** current)
 		*current = (*current)->next;
 	}
 }
+
+void list::traverse()/*Mengunjungi dan membaca data dalam list*/
